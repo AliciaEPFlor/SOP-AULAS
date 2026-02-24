@@ -1,0 +1,38 @@
+Sistema Operacional de código fechado
+Um sistema operacional de codigo fechado é aquele codigo fonte não esta disponivel para acesso, modifcação ou distribuições pelo usuario. Esses sistemas são desesnvolvidos por empresas ou organizações que mantem o controle exclusivo seu 
+
+Caracteristicas principais:
+- Não e possivel alterar o codigo-fonte
+- Linçensas de uso são geralmente pagas
+- Suporte tecnico oferecido pelo fabricante
+- Atualizações controladas pelo desenvolvedor
+
+Requisitos p/ instalação do Windons 11
+
+Os requisitos mínimos para o Windows 11 incluem um processador de 64 bits compatível de 1 GHz com 2 ou mais núcleos, 4 GB de RAM, 64 GB de armazenamento, firmware UEFI com Secure Boot, TPM versão 2.0 e placa gráfica compatível com DirectX 12. É necessário acesso à internet e conta Microsoft para a configuração inicia
+
+Requsitos:
+- Verifique os requisitos de hardware e software para o sistema operacional Windons
+
+ATIVIDADE DE ENTREGA INSTALAR O Windons
+
+- Colocar nome
+- Deixar pasta Padrão
+- Selecionar ISO 
+- Habilitar "Processed with..."
+- Ir a aba de "Specify virtual hardware"
+- Base memory (4096 - 4 MBi)
+- Number of CPU's (4)
+- Ir a aba de "Specify a New Vitual Hard Disk"
+- Disk Side (80 GB)
+- Hard Disk File Type and Format (Prés alocar o tamanho total)
+- Criar senha
+- Desabilitar "Processed with..."
+ Depois da instalação
+ - Ferificar a habilitação do UEFI
+ - Ir para configurações (EXPERT)
+ - Armazenamento
+ - Habilitar "Disco de esado solido" e "Hot Plug"
+ - Ferificar se esta "RAT" em rede
+
+ NAT: Network Atrass Traletion
