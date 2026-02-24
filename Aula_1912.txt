@@ -1,0 +1,94 @@
+10.87.47.41:8000
+
+Fonte de download do Windons: site da Microsoft
+Outra alternativa: pendrive
+Download Alternativo:
+1- Abrir o PowerShell
+2- Digitar: cd ~/Download
+3- Digitar: scp pub@10.87.47:~/iso .
+4- Ao digitar o comando e teclar <ENTER> devera ser digitado uma senha: pub
+
+https://www.google.com = URI 
+
+https (protocolo TCP)
+www.goole.com (URL)
+scp = SSH Copy 
+pub@ = usúario
+~ = Home (POSIX)
+
+Protocolo SSH: Precisa precisa de senha
+
+Arquitetura de serviço SSH no notbook do professor
+
+Como e que voces estão conseguindo acessar o arquivo que esta dentro do bluethoot pela rede?
+Para pegar um arquivo recebido via Wifi, precisa acessar a pasta de armazenamento interno onde ele foi salvo. Os arquivos são compartilhados por via WiFi ou "Downloads" no armazenamento interno, usando o protocolo de transferencia o Secure Shell. Mas existem várias formas de transferir arquivos do seu computador físico (host/servidor) para o Ubuntu no VirtualBox (guest/usuario). As formas mais eficientes envolvem preparar a máquina virtual e configurar o compartilhamento. 1. Arrastar e Soltar (Drag and Drop). Este método é o mais rápido para arquivos pequenos (Pré-requisito: Você deve ter os "Adicionais de Convidado" (Guest Additions) instalados no Ubuntu). Primeiramente voce deve ir ao menu do virtual box e ir a dispositivos. Nos temos varias opções, a primeira e por arrastar e soltar (drag and drop), outra e pela pasta compartilhada (shared folder), usando "Adicionar Convidados" (Guest Additions) e uma alternativas simples (Sem configurar o VBox), usando o email, terminal, cmd, o servidor Python, browser. E o dispositivo que invita e solicita esse serviço, podendo fazer download e passar arquivos pela maquina fisica, portanto em um servidor local, comunicando-se atravez do WiFi, compartilhando as informações pela placa com a maquina virtual.
+
+1- Qual e o protocolo de transferencia?
+SSH: Secure Shell - Shell: Interface entre o usuario com o sistema operacional (kernel/núcleo)
+
+2- O servidor é local ou remoto?
+Sim, esta na mesma rede fisica, cujo o meio e o WiFi (ondas eletromagneticas)
+
+3- Esta diretamente na rede?
+Portanto, o servidor e local
+
+4- Como os clientes se comunicam com o servidor?
+Comunica-se atravez da rede sem fio (WiFi), a conexão é realizada atraves da rede da maquian fisica, que e uma placa de rede WiFi que esta sendo compartilhada com a maquina virtual
+
+
+
+NÃO COPIAR
+Inicie a VM.
+
+Abra o terminal e instale as build-essential e os cabeçalhos do kernel (necessários para o próximo passo):
+
+bash
+sudo apt update
+sudo apt install build-essential dkms linux-headers-$(uname -r)
+No menu da VM (janela do Ubuntu), vá em Dispositivos → Inserir a imagem de CD das Adições para Convidado... .
+
+Se um CD aparecer na área de trabalho ou nos seus drives, abra-o no terminal. Geralmente, você pode montá-lo e executar o instalador com os comandos:
+
+bash
+sudo mount /dev/cdrom /mnt
+cd /mnt
+sudo sh VBoxLinuxAdditions.run
+Após a instalação, reinicie a VM: sudo reboot.
+
+Após reiniciar, a pasta compartilhada provavelmente estará em /media/sf_VM_Share (substitua VM_Share pelo nome que você deu).
+
+Para acessar a pasta com seu usuário comum, você precisa adicionar seu usuário ao grupo vboxsf :
+
+bash
+sudo usermod -a -G vboxsf $USER
+Reinicie o sistema novamente para que as permissões façam efeito. Agora você poderá acessar e modificar os arquivos da pasta compartilhada livremente.
+
+> Arrastar e Soltar (Drag and Drop).
+Selecione Bidirecional (Bidirectional).
+Arraste o arquivo do seu desktop (Windows/Mac) para dentro da janela do Ubuntu. 
+
+> Pastas Compartilhadas (Shared Folders) - Recomendado
+Melhor método para transferir arquivos grandes ou frequentes.
+Como fazer:
+No menu do VirtualBox, vá em Dispositivos > Pastas Compartilhadas > Configurações de Pastas Compartilhadas.
+Clique no ícone de "Adicionar" (pasta com um +).
+Em "Caminho da Pasta", escolha a pasta no seu computador físico.
+Marque Montar Automaticamente e Tornar Permanente.
+No Ubuntu, a pasta geralmente aparece em /media/sf_nome_da_pasta.
+Nota: Você pode precisar adicionar seu usuário ao grupo vboxsf para ter permissão: sudo adduser $USER vboxsf. 
+
+3. Usando "Adicionais de Convidado" (Guest Additions)
+Se o Arrastar e Soltar não estiver funcionando, é provável que precise instalar os Adicionais de Convidado:
+Inicie a máquina virtual Ubuntu.
+No menu da janela, clique em Dispositivos > Inserir imagem de CD dos Adicionais de Convidado....
+O Ubuntu deve pedir para executar o CD; siga as instruções na tela.
+Reinicie a máquina virtual. 
+
+
+4. Alternativas Simples (Sem configurar o VBox)
+Navegador/Email: Abra o Firefox no Ubuntu, envie o arquivo por e-mail para si mesmo ou use serviços como WeTransfer ou Google Drive.
+Terminal (wget/curl): Se o arquivo estiver na internet, abra o terminal no Ubuntu e use o comando wget <url_do_arquivo>.
+Servidor Python Simples: No seu computador físico, abra o terminal/prompt na pasta do arquivo e digite python -m http.server 8080. No Ubuntu, acesse http://localhost:8080 no navegador e baixe o arquivo. 
+Spiceworks Community
+Spiceworks Community
+

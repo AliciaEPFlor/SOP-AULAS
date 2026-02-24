@@ -1,0 +1,173 @@
+Crtl+shift+ask (Gerenciado de tarefas) 
+Hamburguer menu (Três linhas) 
+
+
+
+Gerenciador de Tarefas: 
+- CPU 
+- Memoria 
+- Disco 
+- Wi-fi 
+- GPU (Integrada e externas) 
+- 4 núcleos --> 8 Processadores Logicos 
+
+X86_64
+X86 
+
+Intel Core Duo (Conseguiu colocar em uma pastilha menor, dois processadoreS)
+(24 CPU’S dentro de uma CPU) 
+Tecnic By Try  
+Ultima geração 14 
+Vantagens: Mais rápida e eficiente 
+
+Núcleos virtuais: Tem X mas dobra os processadores por 2 
+
+Virtual Box: Habilitar na Bios para rodar, pois provavelmente precisa habilitar a Virtualização 
+
+Cache: Memoria mais rápida 
+Cache L1: 320 KB (Mais rápido) 
+Cache L2: 
+Cache L3: Administrador para administrador (Olhar a categoria do processador) 
+Para que serve ---> Velocidade e Desempenho 
+
+Básico (Escritório): Entre a 8 a 16 MB, navegação básica 
+Intermediário: (Gamer/Padrão): 32 a 36 MB, “ponto doce” para maioria das processadoras 
+Excelente (Alta performasse): Acima de 64 MB 
+
+DLSS: IA para carregar o frame do jogo 
+
+Memoria 
+Recurso essencial para a memória Ram 
+Cashe e apenas para auxílio
+SSD (Chips eletrônicos que são mais rápidos que HD) 
+DDR5: 12 
+DDR3: 1 A 3 GBITES 
+
+Disco: 
+239 GB 
+
+GPU 
+- GPU (Placa gráfica) 
+- Apresentar os pixel 
+- GPU e compartilhada com a memória Ram da GPU consumira a memória Ram 
+- Se a GPU e compartilhada, parte da memória Ram será usada 
+- Parâmetro para comprar uma GPU:  
+Ram dela 
+-Vantagens: Mais rápidos, libera memória para CPU 
+-Quantos mais memoria na GPU, menos memória Ram do computador poderá usar 
+-Computador comum: 8 GBYTES 
+
+ 
+
+Microship:
+- Fios de Ouro (Sem oxidação) 
+- Cada fio tem uma finalidade 
+- 1 Micron = 6 Nanômetros 
+- Transistor: Base do processador (100 nanômetros, 20 transistores) 
+- Processadores estão fadados a ficarem no 1 nanômetro até a pesquisa quântica de um átomo 
+- Shalders: Mini CPU para fazer conta (colocar o pixel onde foi necessário) 
+- Termos eletronicos (1 nanometro) 
+- 0,05 nanometros (entrar no quantico) 
+- ASML (Maquina criadora de chips) 
+- Lithografia Ultravioleta Extrema 
+- Stamp camiseta (fotografia com mini agulhas no tecido) 
+- Todo processador intel nasce para ser um i9 
+- I7 e um i9 com defeito 
+- Hostel: Pensão chique na europa 
+
+Host. 0S
+Host: Hospedeiro 
+Guest: Maquina virtual 
+GuestOS
+
+Windons+d = Tirar tela de centro
+
+Virtual Box: Conecta redes proprias
+Extensões de arquivos:
+- Calendário.docx (Word)
+- Diario.txt
+Indentificação de arquivos atravez de .+tres letras
+- .iso (Todo jogo aparece isso, compactação, arquivo de instalação)
+- .img (Imagem de um cd, pendrive..., sistema de arquivos proprio)
+- .vdi (Extensão do vitual box)
+CRITERIO DE AVALIAÇÃO
+Quando e SSD (ligar o drive de estado solido)
+Quando e HD (Não ligar o drive de estado solido)
+- Host+p (Spanshot/ pausar maquina virtual)
+- Host+h (Desligar maquina)
+
+- Sitema Operacional (menuetOS) (consegue compactar melhor)
+Sempre ver a linsença para verificar se e homologado
+
+Assembly: Codigo MAX (Server da CPU, verifica todas as Flags)
+
+Basic Imput/Output System: firmware (software básico) pré-instalado em um chip na placa-mãe do computador, responsável por iniciar e configurar o hardware (processador, memória, discos) assim que o PC é ligado, passando o controle para o sistema operacional (Tem um sistema basico de entrada e saida)
+- Qual endereço para a placa de video
+- Endereço de memoria do USB 
+- Mapeamento geral do hardware, para que o software entenda o que o hardware esta lendo
+- Todo fabricante da placa mãe precisa de um iniciador
+- Botlegacy
+- Boot precisa carregar o nucleo
+- Carneon: camada acima do hardware para conversar a BIOS com o Hardware (Comunicação Imput/Output)
+- "Planta da casa"
+- Driver para entender como aqueler dados vão virar informações para o sistema operacional
+- Sempre vai ter HD no PC
+- TPM: Certificado digital para ser instalado (parte da exigencia)
+- 
+
+Sistema operacional:
+1- Requisitos minimos para rodas o sistema minimos
+2- Requisitos: processador de 1 GHz ou mais rápido, com 2 ou mais núcleos e compatível de 64 bits, 4 GB de RAM, 64 GB de armazenamento, firmware UEFI, Secure Boot e, crucialmente, o TPM 2.0
+
+windons+x (Menu) 
+
+menuetOS
+
+-Boot Legacy --> BIOS
+-Boot UEFI --> HD\SSD
+
+VM:Virtual Machine
+
+Emulação: Tentar converter a linguagem da maquina(Wii) para o pc (Interprete), gastar mais processador
+Virtualização: Processo interno do visualizar, dos comandos binarios pode ser passado direito para com computador (Virtualizar apenas maquinas que tem o mesmo hardware que vc) (Não precisa de interprete)
+
+https://retropie.org.uk/
+https://www.raspberrypi.com/
+
+Disquete: Dispositivo que grava informações
+-Da pra fazer boot por rede? Sem HD? Sem SSD? Sem pendrive?
+Sim,ta ali da (PXE)
+
+Cliquem em Pagina Inicial
+Preferencias
+Modo expert
+Maquian vitual
+Host Key Combo 
+
+Proxima aula: Virtualizador de Windons 11
+
+Sistemas de arquivos:
+F.A.T: Fire Alocation Table (Tabela de Locação de Arquivos) --> Tamanho maximo do arquivo e de 46bits --> FAT32 (exFAT)
+N.T.F.S: New Tecnology File System "Sistema de arquivos de nova geração" (Bit Locker) --> Derivado de arquivos de arquivos HPFS de IBM (OS-2)
+Dosca
+A IBM não vendia sistema operacional, vendia maquina
+PCDOS 
+Windons NT (TODA A BASE DE TODOS OS Windons)
+extfs
+btrfs
+Gerenciamento de disco
+Disco 0 partição e Disco 0 partição 2: Preparar esse pedaço como um banco de dados primitivo para organizar os arquivos
+raspibian (D:)= SD card
+Windows (C:)= Sistema operacional Windons
+
+
+
+
+
+
+
+
+
+
+
+
