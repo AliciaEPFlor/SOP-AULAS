@@ -1,0 +1,15 @@
+Apos colocar <DIR>
+- Data 
+- Pasta (Diretorio)
+- Nome da pasta (Nome do Diretorio)
+
+C:\Users\Instrutor\Documents\SENAI
+----------------------------------
+|    Caminho -> PATH
+|------------> Caminho Absoluto (Completo)
+Caminho relativo (Incompleto, apenas para uma pasta especifico)
+
+Comandos CMD:
+- DIR .. -> Lista a pasta original
+- DIR ..\.. -> Lista os arquivos da pastas principal
+
