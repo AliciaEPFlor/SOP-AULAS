@@ -33,6 +33,6 @@ ATIVIDADE DE ENTREGA INSTALAR O Windons
  - Ir para configurações (EXPERT)
  - Armazenamento
  - Habilitar "Disco de esado solido" e "Hot Plug"
- - Ferificar se esta "RAT" em rede
+ - Ferificar se esta "NAT" em rede
 
  NAT: Network Atrass Traletion

@@ -1,0 +1,4 @@
+Leitura de Sitema de Segurança de Alarme (Apostila de Segurança)
+
+- Continuação da Intalação do Windons na maquina Virtual Box
+Anotações
