@@ -1,4 +1,26 @@
 Leitura de Sitema de Segurança de Alarme (Apostila de Segurança)
 
 - Continuação da Intalação do Windons na maquina Virtual Box
-Anotações
+Anotações:
+
+4096 (multiplo de 1024)
+Habilitar PAR/NX - Armazenamento - Sistema (Não nescessario, mas roda coisas diferentes)
+Habilitar CD/DVD (Amazenamento/ISO)
+SSD - Durabilidade, Vida Util
+Verificar o NAT
+Para iniciar a maquina e identificar o mouse e teclado - Clicar qualquer tecla e o mouse
+
+Depois que iniciar a VM
+Habilitar Portugues, Portugues (ABNT)
+Deixar sem Product Key
+Colocar como Windons Pro
+
+
+Como deseja configurar esse sistema?
+Uso pessoal
+Desbloqueie sua experiencia Microsoft (tela que pede o email)
+Procedimento p/ realizar o "by pass" do email windons 11
+- Teclar: shift+F10 ou: shift+FN+F10
+
+
+
