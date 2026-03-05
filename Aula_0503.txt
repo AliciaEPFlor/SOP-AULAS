@@ -1,0 +1,15 @@
+Variaveis de ambiente:
+cd - Muda de Pasta
+%USERPROFILE%
+echo %USERPROFILE%
+echo %PATH%
+cd %APPDATA%
+cd %USERPROFILE%
+echo %COMPUTERNAME%
+dir *.
+mkdir Pasta 3 
+type nul > exemplo.txt
+> rename exemplo. tst exemplo.txt
+cd ..
+rmdir /?
+
