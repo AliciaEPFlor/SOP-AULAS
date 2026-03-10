@@ -1,0 +1,25 @@
+Finalização da Instalação do Windons
+- Teclar "shift+FN+F10" para abrir o CMD dentro da VM
+- Adicionar o comando "start ms-cxh:localonly", antes desabilitar a internet
+- Aparecer tela de criar usuario
+- Colocar nome e senha
+- Responder as perguntas
+- Concordar com tudo
+- Windons se inicializou
+- Ir em documentos
+- Baixar dentro da VM, "VBoxWindonsAdditions.amd64" para colocar na tela cheia
+- Deixar baixar normal
+- Concordar com tudo
+- Renicializar (caso bug, desligar e ligar a maquina) 
+- Vai ligar automaticamente com a tela cheia
+- Navegar para fora da VM, ir em "Dispositivos", ir em "Area de Transferencia Compartilhada" e habilitar "Bi-Dimensional"
+
+Passar um arquivo na VM real para a VM vitual:
+- Ir em "Dispositivos"
+- Ir em "Pastas Compartilhadas"
+- Ir em "Configurações de Pastas Compartilhadas"
+- Clicar no icone de pasta com mais
+- Abrira "Caminho de Pasta"
+- Colocar o caminho de pasta 
+- Habilitar "Montar Automaticamente"
+- Habilitar "Make Global"
