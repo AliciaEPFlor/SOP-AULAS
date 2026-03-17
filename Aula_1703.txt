@@ -1,0 +1,51 @@
+Tema da aula: Script
+    - São comandos executados (emperativamente) passo a passo
+No Windons, um Script e um arquivo de texto contendo uma sequencia de comando que podem ser interpretados e execultados automaticamente pelo sistema operacional. Os scripts são usados para automatizar tarefas, configurar sistemas, manipular tarefas e execultar programas sem intervenção manipular
+    - Os scripts no Windons podem ser escritos em diferentes linguagens, dependendo do interpretados usado
+CMD = .bat
+Powershell = .ps1
+Visual Basic S. = .vsb
+
+Paradgmas de Programação
+    - Metodos ou metodologias de linguagens de Programação
+- Imperativo (Python, C/C++, Visual basic, CMD, PS1)
+    São linguagens que execultam linha por linha
+    Sequencia de cima para baixo
+Passo a passo dos comandos
+- Orientação a Objetos (JavaScritp)
+    Resumo, especificamente execultado por classe de objetos de forma não sequencial
+    Tenta separar em classes, objetos, hierarquia
+    Um outro estilo
+- Funcional (Lrsp, Celulas do Excel)
+Funções matematicas que não e nescessario que seja sequencial ou não sequencial
+- Descritvo (HTML/CSS/XML)
+    Diagramação/Posição
+
+echo /?
+echo DEL /Q "*.txt" > Lexeira.bat -> Arquivo
+    |               |
+Imprime         Redimensionador 
+na tela         de saidas
+ou outro
+Dispositivo de
+saida
+
+@echo off (Desliga o eco de comando (escrita na tela))
+REM Comentarios em CMD
+REM DEL /Q "*.txt" 
+ REM - Usado para comentar o script, util para entender e lembrar partes do script
+echo Ola mundo (ECHO -> Escreve o comando personalizado (script))
+lixeira.bat
+    |
+
+
+Arquivos em lote: arquivo bat´
+
+echo Alo mundo > Lixeira.bat
+                |
+            Redireciona a saida para um arquivo, ele apaga todo o conteudo do arquivo
+            CUIDADO
+echo Terceira Linha >> Lixeira.bat
+                    |
+                Redireciona
+
