@@ -1,0 +1,16 @@
+Instalação do Linux
+
+Oque e um sistema operacional
+- Sistemas de codigo fechado e codigo aberto
+- Kernel
+
+Redrat
+Debian
+Slakeware
+Canonical
+
+Instalação do FileZilla (Client)
+- FTP
+
+- Arquivo
+- Gerenciados de Sites 
