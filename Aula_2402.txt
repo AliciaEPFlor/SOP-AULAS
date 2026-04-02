@@ -22,6 +22,7 @@ ATIVIDADE DE ENTREGA INSTALAR O Windons
 - Habilitar "Processed with..."
 - Ir a aba de "Specify virtual hardware"
 - Base memory (4096 - 4 MBi)
+- Habilitar a EFI
 - Number of CPU's (4)
 - Ir a aba de "Specify a New Vitual Hard Disk"
 - Disk Side (80 GB)
